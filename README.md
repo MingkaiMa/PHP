@@ -20,4 +20,13 @@ apachectl configtest
 put file in /Library/Webserver/Documents:
 
 sudo chown -R :admin /Library/WebServer/Documents
+
 sudo chmod -R g=rw,+X /Library/WebServer/Documents
+
+
+
+$servername = "localhost";
+
+$username = "root";
+
+$password = "123456";
